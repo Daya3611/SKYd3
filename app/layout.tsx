@@ -10,8 +10,15 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "StoreIt",
-  description: "StoreIt - The only storage solution you need.",
+  title: "SkyBox",
+  description: "SkyBox - The only storage solution you need.",
+  icons: [
+    {
+      url: "/assets/images/logo-lg.png",
+      rel: "icon",
+    },
+   
+  ],
 };
 
 export default function RootLayout({
