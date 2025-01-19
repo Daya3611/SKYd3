@@ -17,6 +17,7 @@ export const metadata: Metadata = {
       url: "/assets/images/logo-lg.png",
       rel: "icon",
     },
+    // manifest: "/manifest.json",
    
   ],
 };
@@ -28,6 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body
         className={`${poppins.variable} font-poppins antialiased`}
       >
